@@ -4,8 +4,8 @@
   scroll-behavior: smooth;
 
   /* --gradient: linear-gradient(315deg,#647dee,#7f53ac) */
-  /* background-color: #045de9;
-background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+  /* background-color: #2C599D;
+background-image: linear-gradient(315deg, #2C599D 0%, #09c6f9 74%); */
 }
 
 * {
@@ -49,7 +49,7 @@ body {
   margin-top: 2rem;
   padding: 0.8rem 3rem;
   border-radius: 0.5rem;
-  background: #045de9;
+  background: #2C599D;
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
@@ -102,7 +102,7 @@ header .navbar a {
   margin-left: 2rem;
   font-size: 2rem;
   font-weight: 500;
-  color: #045de9;
+  color: #2C599D;
   text-decoration: none;
 }
 header .navbar a:hover {
@@ -228,7 +228,7 @@ header .navbar a:hover {
 }
 .footer .box-container .box h3 {
   font-size: 2rem;
-  color: #045de9;
+  color: #2C599D;
   padding: 2rem 0;
 }
 .footer .box-container .box p {
@@ -265,7 +265,7 @@ header .navbar a:hover {
 
 .contact {
   font-size: 2rem;
-  color: #045de9;
+  color: #2C599D;
   padding: 2rem 0;
   text-align: center;
 }
@@ -294,7 +294,7 @@ li[class="sm1"] a {
 }
 
 li[class="sm1"] a:hover {
-  color: #045de9;
+  color: #2C599D;
 }
 /* Footer Social Media links finishes. */
 
@@ -406,7 +406,7 @@ li[class="sm1"] a:hover {
 #about-gwoc {
   background-color: var(--white-color);
   color: var(--orange-color);
-  color: #045de9;
+  color: #2C599D;
 }
 .about-info {
   display: flex;
@@ -490,7 +490,7 @@ li[class="sm1"] a:hover {
   text-align: center;
   font-size: 4.5rem;
   width: 100%;
-  color: #045de9;
+  color: #2C599D;
   font-weight: bold;
   padding: 10px;
   margin: 20px 0px;
@@ -640,7 +640,7 @@ li[class="sm1"] a:hover {
   text-align: center;
   font-size: 4.5rem;
   width: 100%;
-  color: #045de9;
+  color: #2C599D;
   font-weight: bold;
   padding: 10px;
   margin: 20px 0px;
@@ -860,7 +860,7 @@ li[class="sm1"] a:hover {
   font-size: 2.3em;
 }
 .stru-content span {
-  color: #045de9;
+  color: #2C599D;
 }
 .structure-card:hover .structure-box .structure-content h2 {
   color: #fff;
