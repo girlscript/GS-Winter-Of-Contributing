@@ -24,7 +24,7 @@ header .navbar a {
   margin-left: 2rem;
   font-size: 2rem;
   font-weight: 550;
-  color: #045de9;
+  color: #2C599D;
   text-decoration: none;
 }
 header .navbar a:hover {
@@ -63,7 +63,7 @@ header .navbar a:hover {
 }
 .title {
   text-align: center;
-  color: blue;
+  color: #2C599D;
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 20px;
