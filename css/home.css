@@ -548,7 +548,6 @@ li[class="sm1"] a:hover {
 
 #registration .registration-box .register-button {
   width: 150px;
-  height: 40px;
   background-color: var(--orange-color);
   border: none;
   color: var(--white-color);
