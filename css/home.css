@@ -63,18 +63,20 @@ section {
 }
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 84%;
-  position: fixed;
-  top: 0rem;
-  left: 8%;
-  background-color: white;
-  padding: 1rem 8%;
-  border-radius: 20px 20px 0px 0px;
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  height: 100px;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    right: 1%;
+    left: 0;
+    background-color: white;
+    /* padding: 1rem 8%; */
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 100px;
 }
 
 @media screen and (max-width: 412px) {
@@ -534,6 +536,7 @@ li[class="sm1"] a:hover {
   padding-top: 20px;
   font-weight: 800;
 }
+
 #registration .registration-box p {
   font-size: 1.7rem;
   font-weight: lighter;
@@ -548,7 +551,6 @@ li[class="sm1"] a:hover {
 
 #registration .registration-box .register-button {
   width: 150px;
-  height: 40px;
   background-color: var(--orange-color);
   border: none;
   color: var(--white-color);
