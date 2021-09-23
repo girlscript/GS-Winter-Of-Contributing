@@ -124,7 +124,7 @@ max-height:75%;
         max-height:200%;
     }
 }
-@media screen and (max-width:400px){
+@media (min-width: 320px) and (max-width:475px) {
     .nav{
         width: 93.9%;
     }
@@ -153,6 +153,23 @@ max-height:75%;
         border-bottom: 0.05rem solid rgba(0, 0, 0, 0.1);
         border-top:none;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .nav_cont {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0rem;
+        right: 1%;
+        left: 0;
+        background-color: white;
+        padding: 1rem 8%;
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        height: 100px;
     }
 }
 
