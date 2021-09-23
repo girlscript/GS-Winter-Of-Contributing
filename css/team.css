@@ -124,7 +124,7 @@ max-height:75%;
         max-height:200%;
     }
 }
-@media (min-width: 320px) and (max-width:475px) {
+@media (min-width: 320px) and (max-width:768px) {
     .nav{
         width: 93.9%;
     }
