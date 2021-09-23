@@ -106,9 +106,11 @@ header .navbar a {
   font-weight: 500;
   color: #2C599D;
   text-decoration: none;
+  transition: 1s;
 }
 header .navbar a:hover {
   color: var(--cherry-tomoto);
+  transform: scale(1.1);
 }
 #menu {
   font-size: 2.5rem;
