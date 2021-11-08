@@ -18,3 +18,11 @@ function show() {
 function close() {
     mainMenu.style.top = '-100%';
 }
+
+const toggles = document.querySelectorAll('.faq-toggle');
+
+toggles.forEach(toggle => {
+	toggle.addEventListener('click', () => {
+		toggle.parentNode.classList.toggle('active');
+	});
+});
