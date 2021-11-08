@@ -2,547 +2,584 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/home.css" />
-  <link rel="shortcut icon" href="./assets/gwoc_smallweb.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <title>GirlScript Winter of Contributing</title>
-  <meta name="description" content="GirlScript Winter of Contributing is a
-three-month programme run by the
-GirlScript Foundation during the winters
-with the purpose of empowering people to
-share their knowledge and ideas in order
-to improve technical abilities and gain
-valuable experience in the field of tech
-education. Throughout the programme,
-participants contribute to a variety of
-themes under the supervision of an
-expert facilitator" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWOC</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 
-  <!-- META -->
-  <meta name="application-name" content="GirlScript Foundation India" />
-  <meta name="author" content="GirlScript Winter of Contributing" />
-  <meta name="msapplication-tooltip" content="GirlScript Winter of Contributing is a
-three-month programme run by the
-GirlScript Foundation during the winters
-with the purpose of empowering people to
-share their knowledge and ideas in order
-to improve technical abilities and gain
-valuable experience in the field of tech
-education." />
-  <meta name="apple-mobile-web-app-title" content="GirlScript Winter of Contributing" />
-  <meta name="og:site_name" content="gwoc.tech" />
-  <meta name="og:title" content="GirlScript Winter of Contributing" />
-  <meta name="og:url" content="https://gwoc.girlscript.tech/" />
-  <meta name="og:image" content="assets/gwoc_smallweb.png" />
 </head>
 
 <body>
-  <div class="container">
-    <!-- Header -->
-    <header id="header">
-      <a href="#" class="logo"><img src="./assets/gwoc_logo_forweb.png" alt="logo" srcset="" /></a>
-      <div id="menu" class="fas fa-bars"></div>
-      <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="./pages/about.html">About</a>
-        <a href="#register">Register</a>
-        <a href="#contact">Contact</a>
-        <a href="pages/team.html">Team</a>
-        <a href="pages/events.html">Events</a>
-      </nav>
-    </header>
-
-    <!-- Home -->
-    <section class="home"
-      style="background-image: url('./assets/2.png'); background-repeat: no-repeat; background-size: cover;">
-      <div class="content">
-        <h3>
-          OPEN SOURCE IS ALL ABOUT GIVING BACK TO THE COMMUNITY AND
-          GWOC IS THE HEART OF IT.
-        </h3>
-      </div>
-
-      <div class="illustration">
-        <!-- <img class="img-fluid w-80 d-none d-sm-block" src="./assets/gwoc_smallweb.png" alt="icon" /> -->
-        <img src="./assets/home.png" />
-      </div>
-    </section>
-
-    <!-- About GirlScript section -->
-    <section id="about-gs" class="about">
-      <div class="about-info">
-        <div class="about-heading heading">
-          About <span>Girl</span><span>Script</span>
+    <!-- Navbar -->
+    <nav style="align-items: center;">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/logo-new.png" alt="">
+            </a>
         </div>
-        <div class="about-content">
-          <p>
-            <span>GirlScript</span> is a non-profit organization that
-            encourages diversity in technical education by providing
-            reservations for women and underrepresented groups in society.It
-            started as a project but eventually gained enormous momentum to
-            become India's First and Biggest Technical Community.
-          </p>
-          <p>
-            Our reach spreads across 64 cities in India and 4 international
-            chapters within 4.5 years only. Furthermore, GirlScript has
-            impacted the lives of over 65000+ students.We aim to not only help
-            establish gender equality in the technical domains but also
-            revolutionize the lives of the individuals who wish to learn and
-            develop in tech.
-          </p>
-        </div>
-      </div>
-      <div class="logo">
-        <img src="./assets/GsLogo_White (1).png" alt="gs-logo" />
-      </div>
-    </section>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a class="nav-underline" href="index.html">HOME</a></li>
+            <li><a class="nav-underline-about" href="#about">ABOUT</a></li>
+            <li><a class="nav-underline-contact" href="#contact">CONTACT</a></li>
+            <li><a class="nav-underline-team" href="pages/teampage.html">TEAM</a></li>
+            <li><a class="nav-underline" href="pages/event.html">EVENT</a></li>
+            <li><a class="register" href="#register"><button class="register-btn">REGISTER</button></a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+            </span>
+        </ul>
+    </nav>
 
-    <!-- About GWOC section -->
-    <a name="about">
-      <section id="about-gwoc" class="about">
-        <div class="gwoc-logo">
-          <img src="./assets/about_gwoc.png" alt="gs-logo" />
+
+    <!-- <div class="navbar" data-aos="fade-down" data-aos-delay="2000">
+        <div class="logo">
+            <img src="../assets/Logo.png">
         </div>
-        <div class="about-info">
-          <div class="about-heading heading">About <span>GWOC</span></div>
-          <div class="about-content">
-            <p>
-              <span>GirlScript Winter of Contributing</span> is a
-              <span>three-month</span> newly established initiative by
-              <span>GirlScript Foundation</span> to be conducted during winters.
-              GWOC encourages individuals
-              to share their knowledge and ideas to
-              develop technical skills and gain valuable
-              experience in the field of tech education.
-              Over the course of the program, participants
-              can contribute to a variety of themes under
-              the guidance of an expert facilitator.
+        <div class="nav-content">
+            <div class="nav-content-topic" id="home">Home</div>
+            <div class="nav-content-topic">
+                <a href="#about" class="nav-content-topic-about">About</a>
+            </div>
+            <div class="nav-content-topic" id="contact">Contact</div>
+            <div class="nav-content-topic" id="team"><a href="./gwoc_teampage.html"
+                    class="nav-content-topic-about">Team</a></div>
+            <div class="nav-content-topic" id="event">Event</div>
+            <div class="nav-content-topic">
+                <button class="nav-content-topic-button">
+                    <div class="nav-content-topic-button-register">
+                        <a href="#register"
+                            style="color: white; text-decoration: none; font-family: 'Poppins', sans-serif;">Register</a>
+                    </div>
+                </button>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- Home Page Design -->
+
+    <div class="home-page-design" data-aos="fade-up" data-aos-delay="1500" id="home">
+        <img src="assets/home-design.png" class="home-page-design-image">
+    </div>
+
+    <div class="home-page-unity" data-aos="fade-up" data-aos-delay="500">
+        <img style="width: 300px;" src="assets/unity-new.png" alt="">
+        <h3>U-N-I-T(y)eam</h3>
+    </div>
+
+
+    <!-- About Section -->
+
+    <div class="about-section" id="about" data-aos="fade-in" data-aos-delay="500">
+        <div class="about-girlscript" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-girlscript-header">
+                About GirlScript
+            </div>
+            <div class="about-girlscript-image">
+                <img src="assets/GWOC-header.png">
+            </div>
+            <div class="about-girlscript-content">
+                <p>
+                    <b>GirlScript</b> is a non-profit organization that encourages diversity
+                    in technical education by providing reservations for women and underrepresented groups in
+                    society.It started as a project but eventually gained enormous momentum to become India's First
+                    and Biggest Technical Community. <br />
+                    <br>Our reach spreads across <b> 64 cities in India </b> and <b> 4 international chapters </b>
+                    within <b> 4.5 years only. </b> Furthermore, <b> GirlScript </b> has impacted the lives of over
+                    65000+ students.We aim to not only help establish <b> gender equality in the technical domains </b>
+                    but also <b> revolutionize the lives of the individuals who wish to learn and develop in tech.</b>
+                </p>
+
+            </div>
+        </div>
+        <div class="about-gwoc" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-gwoc-header">
+                About GWOC
+            </div>
+            <div class="about-gwoc-image">
+                <img src="assets/about-GWOC.png">
+            </div>
+            <div class="about-gwoc-content">
+                <p>
+                    <span style="color: #FF7A19;"><b> GirlScript Winter of Contributing </b> </span> is a
+                    <b> three-month </b>
+                    newly established initiative by <span style="color: #FF7A19;"> <b> GirlScript Foundation </b>
+                    </span>
+                    to be conducted during winters. GWOC encourages individuals to share their knowledge and
+                    ideas to develop technical skills and gain valuable experience in the field of tech education.
+                    Over the course of the program, participants can contribute to a variety of themes under the
+                    guidance of an expert facilitator.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Contribution Section-->
+
+    <div class="contribution" data-aos="fade-down" data-aos-duration="1000">
+        <div>
+            <p class="contribution-heading">
+                How Can You <span style="color: #FF7A19;">CONTRIBUTE ?</span>
             </p>
-          </div>
         </div>
-      </section>
-    </a>
-
-    <!-- Registration section -->
-    <a name="register">
-      <section id="registration">
-        <div class="heading" id="registration-heading">Registrations</div>
-        <div id="contributors" class="registration-box">
-          <h3>Contributors</h3>
-          <p>
-            Whether you're a newbie or a seasoned pro, GirlScript Winter of
-            Contributing will give you a taste of what it's like to contribute
-            to a content repository. For three months, you will work on your
-            selected domains under the supervision of experienced
-            supervisors<span>You can register here for GWoC 2021 as a contributor.</span>
-          </p>
-          <button class="register-button">
-            REGISTRATION CLOSED
-          </button>
-        </div>
-        <div id="supervisors" class="registration-box">
-          <h3>Supervisors</h3>
-          <p>
-            Supervisors are experts in the Open Source project on which the
-            team is currently working.At the commencement of the program, they
-            will provide project roadmap, and will also be available to
-            evaluate pull requests,assist with concepts,encourage the team
-            throughout the program.
-            <span>To be a supervisor at GWoC 2021, fill out the form below.</span>
-          </p>
-          <button class="register-button">
-            REGISTRATION CLOSED
-          </button>
-        </div>
-        <div id="project-managers" class="registration-box">
-          <h3>Mentors </h3>
-          <p>
-            Mentors will offer assistance to the contributors. They will be
-            available to contribute to Github,assist contributors in creating
-            content, answer questions, manage the subject repository, and
-            provide generally assistance to contributors throughout the
-            winter.
-            <span>To be a mentor at GWoC 2021, fill out the form below.</span>
-          </p>
-          <button class="register-button">
-            REGISTRATION CLOSED
-          </button>
-        </div>
-      </section>
-    </a>
-    <!-- Structure -->
-    <section id="structure" class="about">
-      <div class="about-info">
-        <div class="about-heading heading">
-          How Does It <span>Work?</span>
-        </div>
-        <div class="stru-content">
-          <p>
-            The entire programme is divided into three primary contribution
-            sections, with each contributor responsible for submitting their
-            work under the supervision of supervisors who are in charge of
-            making valid github commits.
-          </p>
-          <p>
-            Each person is free to participate in whatever way they see fit.
-            They can help in any of the following three ways:
-            <strong>Documentation, Audio and Video.</strong> Special prizes
-            would be given for the multilingual category Video editors will be
-            assigned to each team to edit the video and audio.
-          </p>
-        </div>
-        <div class="structure-container">
-          <div class="structure-card">
-            <div class="structure-box">
-              <div class="structure-content">
-                <h2 id="doc">Documentation</h2>
-                <ul>
-                  <li>1. Content such as codes or tutorials</li>
-                  <li>2. Preferred language should be English</li>
-                  <li>3. Accepted via Google Colab</li>
-                  <li>4. Clear,Consise and Complete</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="structure-card">
-            <div class="structure-box">
-              <div class="structure-content">
-                <h2>Video</h2>
-                <ul>
-                  <li>
-                    1. Animations,screen-recordings,presentations and regular
-                    explanatory films are all possibilties
-                  </li>
-                  <li>2. Video length should not exceed more than 25 min</li>
-                  <li>3. Presentable and Clear</li>
-                  <li>4. Accepted via Google drive link</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="structure-card">
-            <div class="structure-box">
-              <div class="structure-content">
-                <h2 style="padding-bottom: 4.8px">Audio</h2>
-                <ul>
-                  <li>1. Should be in mp3 format</li>
-                  <li>2. Includes speech clarity,concise ,low distortion</li>
-                  <li>
-                    3. Presentation can also be submitted along with
-                    audio[Optional]
-                  </li>
-                  <li>4. Accepted via Google drive</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SCHEDULE TIMELINE -->
-    <section id="timeline">
-      <div id="timeline-heading">Schedule</div>
-      <div id="timeline-container" id="event1">
-        <div class="event-container left">
-          <div class="container-dates">
-            <h3>1<sup>st</sup> August 2021</h3>
-            <p>REGISTRATION OPENS</p>
-          </div>
-          <div class="container-content">
-            <p>
-              Registration begins for Contributors, Supervisors and
-              Contributors
+        <div class="contribution-content"><p>
+            The entire programme is divided into three primary contribution sections, with each contributor responsible
+            for submitting their work under the supervision of supervisors who are in charge of making valid github
+            commits.
+            <br>
+            <br>
+            Each person is free to participate in whatever way they see fit. They can help in any of the following three
+            ways:<a> Documentation </a>, <a> Audio </a> and <a> Video </a>. Special prizes would be given for the
+            multilingual
+            category Video editors will be assigned to each team to edit the video and audio.
             </p>
-          </div>
         </div>
+    </div>
 
-        <div class="event-container right" id="event2">
-          <div class="container-dates">
-            <h3>15<sup>th</sup> August 2021</h3>
-            <p>REGISTRATION CLOSES</p>
-          </div>
-          <div class="container-content">
-            <p>
-              Registration closes for Supervisors, Mentors and Contributors
-            </p>
-          </div>
-        </div>
+    <!--About Contribution Section-->
 
-        <div class="event-container left" id="event4">
-          <div class="container-dates">
-            <h3>15<sup>th</sup> August 2021</h3>
-            <p>SELECTION FOR CONTRIBUTORS</p>
-          </div>
-          <div class="container-content">
-            <p>Selection mails will be sent to the selected contributors.</p>
-          </div>
-        </div>
+    <div class="about-contribution">
 
-        <div class="event-container right" id="event3">
-          <div class="container-dates">
-            <h3>25<sup>th</sup> August 2021</h3>
-            <p>SELECTION FOR SUPERVISORS</p>
-          </div>
-          <div class="container-content">
-            <p>Selection mails will be sent to the selected supervisors.</p>
-          </div>
-        </div>
+        <!-- Document Contribution Section -->
 
-        <div class="event-container left" id="event3">
-          <div class="container-dates">
-            <h3>26<sup>th</sup> August 2021</h3>
-            <p>SELECTION FOR MENTORS</p>
-          </div>
-          <div class="container-content">
-            <p>Selection mails will be sent to the selected mentors.</p>
-          </div>
-        </div>
+        <div class="about-document-contribution" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-document-contribution-content">
+                <div class="about-document-contribution-heading">
+                    IsDoument()
+                </div>
+                <div class="about-document-contribution-content-content">
+                    1. Content such as codes or tutorials
+                    <br>
+                    2. Preferred language should be English
+                    <br>
+                    3. Accepted via Google Colab
+                    <br>
+                    4. Clear,Consise and Complete
+                    <br>
 
-        <div class="event-container right" id="event5">
-          <div class="container-dates">
-            <h3>30<sup>th</sup> August 2021</h3>
-            <p>TOPIC ASSIGNMENT</p>
-          </div>
-          <div class="container-content">
-            <p>Topics to be assigned to the contributors by the mentors.</p>
-          </div>
-        </div>
+                </div>
 
-        <div class="event-container left" id="event6">
-          <div class="container-dates">
-            <h3>1<sup>st</sup> September 2021</h3>
-            <p>CONTRIBUTION BEGINS</p>
-          </div>
-          <div class="container-content">
-            <p>Contributing period begins.</p>
-          </div>
-        </div>
-
-        <div class="event-container right" id="event7">
-          <div class="container-dates">
-            <h3>2<sup>nd</sup> - 5 <sup>th</sup> September 2021</h3>
-            <p>GIT & GITHUB WORKSHOP</p>
-          </div>
-          <div class="container-content">
-            <p>A virtual worshop on Git and Github.</p>
-          </div>
-        </div>
-
-        <div class="event-container left" id="event8">
-          <div class="container-dates">
-            <h3>1<sup>st</sup> December 2021</h3>
-            <p>CONTRIBUTION ENDS</p>
-          </div>
-          <div class="container-content">
-            <p>Contributing period comes to an end.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-
-    <section id="questions" class="p-8">
-      <div class="container faq">
-        <h1 id="timeline-heading">
-          FAQs
-        </h1>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <!-- 1 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Will a beginner, with absolutely no knowledge of GitHub, gain
-                anything fruitful?
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse fs-4" aria-labelledby="flush-headingOne"
-              data-bs-parent="#questions">
-              <div class="accordion-body">
-                <strong>Yes, absolutely.</strong> The organization's goal is
-                to help newcomers advance in the area of technology. We'll
-                have sub-tasks ideal for both novices and award winners,
-                ensuring that each and every contributor learns something new
-                from the topics to which he or she contributes.
-              </div>
             </div>
-          </div>
-          <br>
-          <!-- 2 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Is there any registration fee?
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse fs-4" aria-labelledby="flush-headingTwo"
-              data-bs-parent="#questions">
-              <div class="accordion-body">
-                No, there are no fees associated with participation. It is
-                completely free of charge.
-              </div>
+            <div class="about-document-contribution-image">
+                <img src="assets/isdocument.png">
+
             </div>
-          </div>
-          <br>
-          <!-- 3 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Any age limit for participation?
-              </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse fs-4" aria-labelledby="flush-headingThree"
-              data-bs-parent="#questions">
-              <div class="accordion-body">
-                No, there is no upper age limit for GWoC participants. It is
-                open to everyone.
-              </div>
-            </div>
-          </div>
-          <br>
-          <!-- 4 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                How will we receive the prizes (if won) and certificates?
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse fs-4" aria-labelledby="flush-headingFour"
-              data-bs-parent="#questions">
-              <div class="accordion-body">
-                The digital certificate will be distributed to all deserving
-                contributors. The reward money will be deposited into all of
-                the top contributor's bank accounts. After the event, we'll
-                send you an email with the bank account information.
-                <p style="font-weight:bold;font-size:0.9rem">*T&C Applied</p>
-              </div>
-            </div>
-          </div>
-          <br>
-          <!-- 5 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFive">
-              <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                By what time will the result come?
-              </button>
-            </h2>
-            <div id="flush-collapseFive" class="accordion-collapse collapse fs-4" aria-labelledby="flush-headingFive"
-              data-bs-parent="#questions">
-              <div class="accordion-body">
-                In the first week of January, the results will be announced.
-              </div>
-            </div>
-          </div>
-          <br>
-          <!-- 6 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingSix">
-              <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                What minimum conditions should the project satisfy?
-              </button>
-            </h2>
-            <div id="flush-collapseSix" class="accordion-collapse collapse fs-4" aria-labelledby="flush-headingSix"
-              data-bs-parent="#questions">
-              <div class="accordion-body">
-                There are no such requirements that the content repository
-                must meet. Mentors and Admins can suggest a proposal in any
-                sector in which they have specific knowledge.
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <button class="faq-button">
-        <a href="pages/faq.html" style="text-decoration: none; color: white">More FAQs</a>
-      </button>
-    </section>
 
-    <!-- Footer section -->
+        <!-- Video Contribution Section -->
+        <div class="about-video-contribution" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-video-contribution-image">
+                <img src="assets/isvideo.png">
+            </div>
+            <div class="about-video-contribution-content">
+                <div class="about-video-contribution-heading">
+                    IsVideo()
+                </div>
+                <div class="about-video-contribution-content-content">
+                    1. Animations,screen-recordings,prese
+                    <br>
+                    2. Video length should not exceed mor
+                    <br>
+                    3. Presentable and Clear
+                    <br>
+                    4. Accepted via Google drive link
+                    <br>
 
-    <section id="contact" class="footer">
-      <!-- <div class="footerkalogo">
-          <a href="#" class="logo"
-            ><img src="./assets/gwoc_logo_forweb.png" alt="logo"
-          /></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Audio Contribution -->
+        <div class="about-audio-contribution" data-aos="fade-up" data-aos-duration="1000">
+            <div class="about-audio-contribution-content">
+                <div class="about-audio-contribution-heading">
+                    IsAudio()
+                </div>
+                <div class="about-audio-contribution-content-content">
+                    1. Should be in mp3 format
+                    <br>
+                    2. Includes speech clarity,concise ,low
+                    <br>
+                    3. Presentation can also be submitted
+                    <br>
+                    4. Accepted via Google drive
+                    <br>
+
+                </div>
+
+            </div>
+            <div class="about-audio-contribution-image">
+                <img src="assets/isaudio.png">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--Roles Section-->
+    <div class="role-section" id="register">
+        <div class="role-section-heading">
+            <p>Choose your <span style="color: #FF7A19;">ROLE</span> and join us</p>
+        </div>
+        <div class="role-cards">
+            <div class="contributer-role-card" data-aos="fade-down" data-aos-duration="2000">
+                <div class="contributer-role-card-heading">
+                    CONTRIBUTERS
+                </div>
+                <div class="contributer-role-card-image">
+                    <img style="width: 310px; padding-bottom: 13px;" src="assets/Contributer-role-card.png" alt="">
+                </div>
+                <div class="contributer-role-card-content">
+                    <p>Whether you're a newbie
+                        or a seasoned pro, GirlScript Winter of Contributing will give you a taste of what it's
+                        like to contribute to a content repository. For three months, you will work on your
+                        selected domains under the supervision of experienced supervisors <span
+                            style="color: #313131; font-weight: 700;">You can register here
+                            for
+                            GWoC
+                            2021 as a Contributer.</span></p>
+
+                    <button class="register-button">REGISTRATION CLOSED</button>
+                </div>
+            </div>
+            <div class="contributer-role-card" data-aos="fade-down" data-aos-duration="2000">
+                <div class="contributer-role-card-heading">
+                    SUPERVISORS
+                </div>
+                <div class="contributer-role-card-image">
+                    <img src="assets/Supervisor-role-card.png" alt="">
+                </div>
+                <div class="contributer-role-card-content">
+                    <p>Supervisors are experts in the Open Source project on which the team is currently
+                        working. At the commencement of the program, they will provide project roadmap,
+                        will be available to evaluate pull requests, assist with concepts, encourage the
+                        team throughout the program.
+                        <span style="color: #313131; font-weight: 700;">You can register here
+                            for
+                            GWoC
+                            2021 as a Supervisor.</span>
+                    </p>
+
+                    <button class="register-button">REGISTRATION CLOSED</button>
+                </div>
+            </div>
+            <div class="mentor-role-card" data-aos="fade-down" data-aos-duration="2000">
+                <div class="mentor-role-card-heading">
+                    MENTORS
+                </div>
+                <div class="mentor-role-card-image">
+                    <img src="assets/Mentor-role-card.png" style="margin-bottom: 9px;">
+                </div>
+                <div class="mentor-role-card-content">
+                    <p>Mentors will offer
+                        assistance to the contributors. They will be available to contribute to Github,assist
+                        contributors in creating content, answer questions, manage the subject repository, and
+                        provide generally assistance to contributors throughout the winter.<span
+                            style="color: #313131; font-weight: 700;">You can register here
+                            for
+                            GWoC
+                            2021 as a Mentor.</span></p>
+
+                    <button class="register-button">REGISTRATION CLOSED</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Timeline Section-->
+    <div class="timeline-section">
+        <h2>Stay up to date with <span style="color: #FF7A19;"> TIMELINE </span></h2>
+        <div class="timeline">
+            <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon ">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    August 1st, 2021
+                </div>
+                <div class="timeline__event__content ">
+                    <div class="timeline__event__title">
+                        Registration Open
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Registration begins for Contributors, Supervisors and Contributors
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    August 15th, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        REGISTRATION CLOSES
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Registration closes for Supervisors, Mentors and Contributors
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    August 15th, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        SELECTION FOR CONTRIBUTORS
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Selection mails will be sent to the selected contributors.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp timeline__event--type1" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    August 25th, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        SELECTION FOR SUPERVISORS
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Selection mails will be sent to the selected supervisors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    August 26th, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        SELECTION FOR MENTORS
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Selection mails will be sent to the selected mentors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp timeline__event--type1" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    August 30th, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        TOPIC ASSIGNMENT
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Topics to be assigned to the contributors by the mentors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    September 1st, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        CONTRIBUTION BEGINS
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Contributing period begins.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp timeline__event--type1" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    September 2nd-5th, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        GIT & GITHUB WORKSHOP
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>A virtual worshop on Git and Github.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3" data-aos="fade-down"
+                data-aos-duration="300">
+                <div class="timeline__event__icon">
+                    <i class="far fa-calendar-alt"></i>
+
+                </div>
+                <div class="timeline__event__date">
+                    December 1st, 2021
+                </div>
+                <div class="timeline__event__content">
+                    <div class="timeline__event__title">
+                        CONTRIBUTION ENDS
+                    </div>
+                    <div class="timeline__event__description">
+                        <p>Contributing period comes to an end.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Sponsors Section-->
+    <div class="sponsers">
+        <div class="sponser-heading">
+            OUR <span style="color: #FF7A19;">SPONSORS </span> & <span style="color: #FF7A19;"> PROMOTORS </span>
+        </div>
+        <!-- <div class="primary-sponsers">
+            <div class="primarysponsers-heading">
+                Primary Sponsor
+
+            </div>
+            <div class="primary-sponser-image">
+                <img src="./assets/DigitalOcean Logo.png" alt="">
+            </div>
+
+
+        </div>
+        <div class="othersponsers">
+            <div class="secondary-sponser">
+                <div class="secondary-sponser-heading">
+                    Secondary Sponsor
+                </div>
+                <div class="secondary-sponser-image">
+                    <img src="./assets/Linode Logo.png" alt="">
+                </div>
+
+            </div>
+            <div class="tertiary-sponser">
+                <div class="tertiary-sponser-heading">
+                    Tertiary Sponsor
+                </div>
+                <div class="tertiary-sponser-image">
+                    <img src="./assets/Honeybadger Logo.png" alt="">
+                </div>
+
+            </div>
         </div> -->
-      <div class="box-container">
-        <div class="box">
-          <h3>About Us</h3>
-          <p>
-            GirlScript Winter of Contributing, a three-month enthusiastic program organized by GirlScript Foundation
-            with the goal
-            of creating the world's largest multilingual content repository that is open for everyone.
-          </p>
+        <div class="other-sponsor">
+            <div class="other-sponsor-section">
+                <!-- <div class="other-sponsor-heading">
+                    Other Sponsors
+                </div> -->
+                <button class="sponsor-button">
+                    <a href="#" style="color: white; text-decoration: none; font-family: 'Poppins', sans-serif;">
+                        SPONSOR US</a>
+                </button>
+            </div>
         </div>
+    </div>
 
-        <div class="box">
-          <h3>Quick Links</h3>
-          <a href="#questions">FAQs</a>
-          <a href="#register">Register</a>
-          <a href="pages/codeofconduct.html">Code Of Conduct</a>
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+        <div class="contact-heading-section">
+            <div class="contact-heading">
+                The <span style="color: #AB4806;"> World's Largest </span> Multilingual Content <br>
+                Repository, <span style="color: #AB4806;"> Open </span> for Everyone.
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/company/girlscript-winter-of-contributing/" target="_blank"
+                    class="icon1">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/girlscriptwinterofcontributing/" target="_blank" class="icon2">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/girlscriptwoc" target="_blank" class="icon3">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
         </div>
-
-        <div class="social1">
-          <h3 class="contact">Contact Us</h3>
-
-          <div class="email">
-            <a href="mailto:gwoc@girlscript.tech" target="_blank" title="Mail"><i class="far fa-envelope"
-                style="font-size: 28px"></i></a>
-            <p>gwoc@girlscript.tech</p>
-          </div>
-
-          <ul class="social-media1">
-            <li class="sm1">
-              <a href="https://www.facebook.com/girlscriptwinterofcontributing" target="_blank" title="Facebook"><i
-                  class="fab fa-facebook" style="font-size: 28px"></i></a>
-            </li>
-            <li class="sm1">
-              <a href="https://twitter.com/girlscriptwoc" target="_blank" title="Twitter"><i class="fab fa-twitter"
-                  style="font-size: 28px"></i></a>
-            </li>
-            <li class="sm1">
-              <a href="https://www.instagram.com/girlscriptwinterofcontributing/" target="_blank" title="Instagram"><i
-                  class="fab fa-instagram" style="font-size: 28px"></i></a>
-            </li>
-            <li class="sm1">
-              <a href="https://www.linkedin.com/company/girlscript-winter-of-contributing/" target="_blank"
-                title="Linkedin"><i class="fab fa-linkedin-in" style="font-size: 28px"></i></a>
-            </li>
-            <!-- <li class="sm1">
-                <a
-                  href="mailto:gwoc@girlscript.tech"
-                  target="_blank"
-                  title="Mail"
-                  ><i class="far fa-envelope" style="font-size: 28px"></i
-                ></a>
-              </li> -->
-          </ul>
+        <div class="contact-links">
+            <img class="contact-logo" src="assets/favicon.png" alt="">
+            <ul class="quick-links">
+                <h3>QUICK LINKS</h3>
+                <li>FAQ</li>
+                <li>Register</li>
+                <li>Code Of Conduct</li>
+            </ul>
         </div>
-      </div>
-      <div class="credit">
-        Created with 💗 by <span>GirlScript Winter of Contributing</span>
-      </div>
-      <p class="credit-end">
-        Copyright © 2021 GirlScript Foundation. All rights reserved.
-      </p>
-    </section>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="./js/home.js"></script>
+    </div>
+    <div class="contact-copyright">
+        <p>Copyright © 2021 GirlScript Winter of Contributing. All rights reserved.</p>
+    </div>
+
+    <!-- AOS Tag -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            once: false,
+
+        });
+    </script>
+    <script src="js/app.js"></script>
+
 </body>
 
 </html>
