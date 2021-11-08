@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #FF921B; 
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ol.gradient-list > li, ol.gradient-list > li::before {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  margin-bottom: 85px;
+}
+ol.gradient-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1.2rem 1.2rem 1.2rem 3.5rem;
+  position: relative;
+  font-size: 1.6rem;
+}
+ol.gradient-list > li::before, ol.gradient-list > li::after {
+  background: linear-gradient(135deg, rgba(255,186,8,1) 0%, rgba(255,127,21,1) 100%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: '';
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+ol.gradient-list > li::before {
+  align-items: flex-end;
+  content: counter(gradient-counter);
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+}
+
+ol.gradient-list > li + li {
+  margin-top: 2rem;
+}
+
+.section-text {
+    text-align: center;
+    padding: 4px;
+    letter-spacing: 1.5px;
+}
+
+.section-heading {
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .section-text {
+        letter-spacing: 1px;
+        padding: 2px;
+    }
+}

@@ -418,6 +418,11 @@ nav .mainMenu li a.nav-underline-team {
     opacity: 0.5;
 }
 
+.quick-links a{
+    color: white;
+    text-decoration: none;
+}
+
 .contact-logo{
     background-color: #FFF3E5;
     border-radius: 50rem;
