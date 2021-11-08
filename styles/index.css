@@ -45,6 +45,11 @@ nav .mainMenu .closeMenu , .icons i {
     display: none;
     cursor: pointer;
 }
+
+nav .mainMenu .icons a{
+    color: white;
+    text-decoration: none;
+}
 /* .fa-facebook:hover {color: rgb(0, 110, 255);}
 .fa-twitter:hover {color: rgb(86, 154, 243);}
 .fa-instagram:hover {color: rgb(255, 0, 191);}
@@ -669,7 +674,7 @@ nav .logo {
     margin: 20px 0;
     border-radius: 6px;
     align-self: center;
-    width: 50vw;
+    width: 60vw;
 }
 .timeline__event:nth-child(2n + 1) {
     flex-direction: row-reverse;
