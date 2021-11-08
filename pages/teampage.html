@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/gwoc_smallweb.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/team.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/gwoc_smallweb.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600" rel="stylesheet">
 
     <title>GWOC | TEAM</title>
     <meta name="description" content="GirlScript Winter of Contributing is a
@@ -41,66 +41,58 @@
     <meta name="og:site_name" content="gwoc.tech" />
     <meta name="og:title" content="GirlScript Winter of Contributing" />
     <meta name="og:url" content="https://gwoc.girlscript.tech/" />
+
+    <link rel="stylesheet" href="../styles/teampage.css" type="text/css">
 </head>
 
-<body>
+<body style="background-color: white;">
     <section id="team">
-        <div class="container mt-0 mb-5 ps-0 pe-0"
-            style="background-color: white; border-radius:20px; position: relative;">
+        <div style="background-color: white; border-radius:20px; position: relative;">
 
-            <!-- navbar -->
-            <div class="nav_cont">
+            <!-- Navbar -->
+            <nav style="align-items: center;">
                 <div class="logo">
-                    <img src="../assets/gwoc_logo_forweb.png" class="image-fluid" alt="logo">
+                    <a href="index.html">
+                        <img src="../assets/logo-new.png" alt="">
+                    </a>
                 </div>
-                <div id="navbar-toggle">
-                    <i class="fas fa-bars" style="font-size:1.3rem;border-radius: 0.3rem;
-                    border: 0.1rem solid rgba(0, 0, 0, 0.2); padding:0.3rem 0.5rem;"></i>
-                </div>
-                <div class="nav-items">
-                    <ul>
-                        <a href="../index.html">
-                            <li>Home</li>
-                        </a>
-                        <a href="about.html">
-                            <li>About</li>
-                        </a>
-                        <a href="../index.html#registration">
-                            <li>Register</li>
-                        </a>
-                        <a href="../index.html#contact">
-                            <li>Contact</li>
-                        </a>
-                        <a href="team.html">
-                            <li>Team</li>
-                        </a>
-                    </ul>
-                </div>
-            </div>
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li><a class="nav-underline" href="../index.html">HOME</a></li>
+                    <li><a class="nav-underline-about" href="../index.html#about">ABOUT</a></li>
+                    <li><a class="nav-underline-contact" href="#contact">CONTACT</a></li>
+                    <li><a class="nav-underline-team" href="./teampage.html">TEAM</a></li>
+                    <li><a class="nav-underline" href="./event.html">EVENT</a></li>
+                    <li><a href="#register"><button class="register-btn">REGISTER</button></a></li>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                    <span class="icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-github"></i>
+                    </span>
+                </ul>
+            </nav>
 
             <section class="section-team">
                 <div class="container">
-                    <!-- Start Header Section -->
-                    <div class="row justify-content-center text-center">
-                        <div class="col-md-8 col-lg-6">
-                            <div class="header-section">
-                                <h2 class="title">Meet the Team</h2>
-                                <br>
-                                <h3 class="small-title">Team work makes the dream work</h3>
-                            </div>
-                        </div>
+                    <!-- Start Header Section -->">
+                    <div class="header-section">
+                        <h2 class="title">Meet the Team</h2>
+                        <h3 class="small-title">Team work makes the dream work</h3>
                     </div>
                     <!-- / End Header Section -->
-                    <div class="row">
+                    <div class="team-info">
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/ChiragAgrawal.jpeg" alt="">
                                     <a href="https://twitter.com/Chiragagrwal7" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/chirag-agrawal9200/" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/chirag-agrawal9200/" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="https://www.instagram.com/chirgagrwl.code/" target="_blank" class="icon3">
@@ -115,7 +107,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/GauravDas.png" alt="">
@@ -137,7 +129,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/JigyasaSaraswat.jpg" alt="">
@@ -157,16 +149,39 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="team-details">
+                            <div class="single-person">
+                                <div class="person-image">
+                                    <img src="../assets/team/AnnaThomas.jpeg" alt="">
+                                    <!-- <a href="" target="_blank" class="icon1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a> -->
+                                    <a href="https://www.linkedin.com/in/anna-thomas-8244441a6" target="_blank"
+                                        class="icon2">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <!-- <a href="" target="_blank" class="icon3">
+                                        <i class="fab fa-instagram"></i>
+                                    </a> -->
+                                </div>
+                                <div class="person-info">
+                                    <h3 class="full-name">Anna Thomas</h3>
+                                    <span class="speciality">Program Manager</span>
+                                </div>
+                            </div>
+                        </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/SwapnilSrivastava.jpg" alt="">
                                     <a href="https://twitter.com/swapnilsparsh" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/swapnil-srivastava-sparsh" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/swapnil-srivastava-sparsh" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="https://www.instagram.com/swapnilsparsh" target="_blank" class="icon3">
@@ -181,14 +196,15 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/SubhradeepSamanta.jpg" alt="">
                                     <a href="https://twitter.com/subhriholic" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/subhradeep-samanta-85236a203/" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/subhradeep-samanta-85236a203/" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="https://www.instagram.com/dexterous_v19/" target="_blank" class="icon3">
@@ -203,14 +219,15 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/AsmiJena.jpeg" alt="">
                                     <!-- <a href="" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a> -->
-                                    <a href="https://www.linkedin.com/in/asmi-jena-5957a0202/" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/asmi-jena-5957a0202/" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <!-- <a href="" target="_blank" class="icon3">
@@ -225,7 +242,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/IdikaVerma.jpg" alt="">
@@ -247,14 +264,15 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/MeenuSingh.jpg" alt="">
                                     <!-- <a href="" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a> -->
-                                    <a href="https://www.linkedin.com/in/meenu-singh-9406051a9/" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/meenu-singh-9406051a9/" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="https://www.instagram.com/_meenu_._._/" target="_blank" class="icon3">
@@ -269,14 +287,15 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/PreranaPradhan.jpg" alt="">
                                     <a href="https://twitter.com/Pre43772464?s=08" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/prerana-pradhan-2481991a0/" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/prerana-pradhan-2481991a0/" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                     <a href="https://www.instagram.com/preranaapradhan/" target="_blank" class="icon3">
@@ -291,7 +310,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/AnilSinghBisht.jpg" alt="">
@@ -313,17 +332,19 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/MuskanBansal.jpg" alt="">
                                     <a href="https://twitter.com/Muskan0109" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/muskan-bansal-095601189" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/muskan-bansal-095601189" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/muskan_bansal0109/" target="_blank" class="icon3">
+                                    <a href="https://www.instagram.com/muskan_bansal0109/" target="_blank"
+                                        class="icon3">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
@@ -335,7 +356,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/ParulMudaliar.jpg" alt="">
@@ -357,7 +378,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/PrernaDhiman.jpg" alt="">
@@ -379,7 +400,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/TanveerRaza.jpeg" alt="">
@@ -389,7 +410,8 @@
                                     <a href="https://www.linkedin.com/in/tanveerraza789/" target="_blank" class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/tanveerraza.tar.gz/" target="_blank" class="icon3">
+                                    <a href="https://www.instagram.com/tanveerraza.tar.gz/" target="_blank"
+                                        class="icon3">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
@@ -401,17 +423,19 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/VaibhavBhardwaj.jpeg" alt="">
                                     <a href="https://twitter.com/Vaibhav_2000_" target="_blank" class="icon1">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/vaibhav-bhardwaj2000" target="_blank" class="icon2">
+                                    <a href="https://www.linkedin.com/in/vaibhav-bhardwaj2000" target="_blank"
+                                        class="icon2">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/__vaibhav.bhardwaj__/" target="_blank" class="icon3">
+                                    <a href="https://www.instagram.com/__vaibhav.bhardwaj__/" target="_blank"
+                                        class="icon3">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
@@ -423,7 +447,7 @@
                         </div>
                         <!-- / End Single Person -->
                         <!-- Start Single Person -->
-                        <!-- <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <!-- <div class="team-details">
                             <div class="single-person">
                                 <div class="person-image">
                                     <img src="../assets/team/MeenuSingh.jpg" alt="">
@@ -448,82 +472,45 @@
                 </div>
             </section>
 
-            <section id="footer">
-                <div class="row p-5 mt-5 justify-content-evenly">
-                    <div class="col-10 col-xl-3 my-3 my-xl-0">
-                        <div class="footer-about">
-                            <h3>About Us</h3>
-                            <p>GirlScript Winter of Contributing, a three-month enthusiastic program organized by
-                                GirlScript Foundation with the goal of creating the world's largest multilingual content
-                                repository that is open for everyone.</p>
-                        </div>
+            <!-- Contact Section -->
+            <div class="contact" id="contact">
+                <div class="contact-heading-section">
+                    <div class="contact-heading">
+                        The <span style="color: #AB4806;"> World's Largest </span> Multilingual Content <br>
+                        Repository, <span style="color: #AB4806;"> Open </span> for Everyone.
                     </div>
-
-                    <div class="col-10 col-xl-3 my-3 my-xl-0">
-                        <div class="footer-quick-links">
-                            <h3>Quick Links</h3>
-                            <ul>
-                                <a href="../index.html#questions">
-                                    <li>FAQs</li>
-                                </a>
-                                <a href="../index.html#registrations">
-                                    <li>Register</li>
-                                </a>
-                                <a href="../pages/codeofconduct.html">
-                                    <li>Code of Conduct</li>
-                                </a>
-                            </ul>
-                        </div>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/company/girlscript-winter-of-contributing/" target="_blank"
+                            class="icon1">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/girlscriptwinterofcontributing/" target="_blank"
+                            class="icon2">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/girlscriptwoc" target="_blank" class="icon3">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </div>
-
-                    <div class="col-10 col-xl-3 my-3 my-xl-0">
-                        <div class="footer-social-media">
-                            <h3>Contact us</h3>
-                            <div class="email">
-                                <a href="mailto:gwoc@girlscript.tech" target="_blank" title="Mail"><i
-                                        class="far fa-envelope" style="font-size: 28px"></i></a>
-                                <p>gwoc@girlscript.tech</p>
-                            </div>
-                            <ul>
-                                <li class="sm1">
-                                    <a href="https://www.facebook.com/girlscriptwinterofcontributing" target="_blank"
-                                        title="Facebook"><i class="fab fa-facebook" style="font-size: 28px"></i></a>
-                                </li>
-                                <li class="sm1">
-                                    <a href="https://twitter.com/girlscriptwoc" target="_blank" title="Twitter"><i
-                                            class="fab fa-twitter" style="font-size: 28px"></i></a>
-                                </li>
-                                <li class="sm1">
-                                    <a href="https://www.instagram.com/girlscriptwinterofcontributing/" target="_blank"
-                                        title="Instagram"><i class="fab fa-instagram" style="font-size: 28px"></i></a>
-                                </li>
-                                <li class="sm1">
-                                    <a href="https://www.linkedin.com/company/girlscript-winter-of-contributing/"
-                                        target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"
-                                            style="font-size: 28px"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-12 text-center credit">
-                        Created with 💗 by <span style="color:#ff7a00; font-weight:500">GirlScript Winter of
-                            Contributing</span>
-                    </div>
-                    <div class="col-12 text-center copyright">
-                        Copyright © 2021 GirlScript Foundation. All rights reserved.
-                    </div>
-
                 </div>
-            </section>
-
-        </div>
-    </section>
-
-    <script src="../js/navbar.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+                <div class="contact-links">
+                    <img class="contact-logo" src="../assets/favicon.png" alt="">
+                    <ul class="quick-links">
+                        <h3>QUICK LINKS</h3>
+                        <li>FAQ</li>
+                        <li>Register</li>
+                        <li>Code Of Conduct</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-copyright">
+                <p>Copyright © 2021 GirlScript Winter of Contributing. All rights reserved.</p>
+            </div>
+            <!-- <script src="../js/navbar.js"></script> -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+            <script src="../js/app.js"></script>
 </body>
 
 </html>
