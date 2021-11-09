@@ -1043,6 +1043,133 @@ nav .logo {
     }
 }
 
+/* FAQ Section */
+
+.faq-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    padding-bottom: 3rem;
+}
+
+.faq-heading{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 2rem;
+}
+
+.faq-heading::after{
+    content: '';
+    position: absolute;
+    bottom: 3.2rem;
+    left: -40%;
+    transform: translateX(-50%);
+    background-color: #FF921B;
+    width: 12rem;
+    height: 6px;
+    border-radius: 0.8rem;
+}
+
+.faq-heading::before{
+    content: '';
+    position: absolute;
+    bottom: 3.2rem;
+    left: 140%;
+    transform: translateX(-50%);
+    background-color: #FF921B;
+    width: 12rem;
+    height: 6px;
+    border-radius: 0.8rem;
+}
+
+.faqs-container {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.faq {
+	background-color: transparent;
+	border: 1px solid #FF7A00;
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px 0;
+	transition: 0.3s ease;
+}
+
+.faq-title {
+	margin: 0 35px 0 0;
+}
+
+.faq-text {
+	display: none;
+	margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+	display: block;
+}
+
+.faq-toggle {
+	background-color: transparent;
+	border: none;
+	border-radius: 50%;
+	color: #FFF;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	height: 30px;
+	width: 30px;
+}
+
+.faq-toggle:focus {
+	outline: none;
+}
+
+.faq.active .faq-toggle {
+	background-color: #FF7A00;
+}
+
+.faq-toggle .fa-times {
+	display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+	display: block;
+}
+
+.faq-toggle .fa-chevron-down {
+	color: #FF7A00;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+	display: none;
+}
+
+@media (max-width:786px) {
+    .faq-heading::after {
+        width: 5rem;
+        left: -5%;
+    }
+    
+    .faq-heading::before {
+        width: 5rem;
+        left: 105%;
+    }
+}
 /* Contact Section */
 
 .contact{
@@ -1101,6 +1228,11 @@ nav .logo {
     height: 2px;
     border-radius: 0.8rem;
     opacity: 0.5;
+}
+
+.quick-links a{
+    color: white;
+    text-decoration: none;
 }
 
 .contact-logo{
