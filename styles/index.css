@@ -190,6 +190,18 @@ nav .logo {
     margin-top: -10rem;
 }
 
+.fade {
+    position: relative;
+}
+
+fade {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(rgb(255,146,27),rgba(255, 255, 255, 0));
+}
+
 .home-page-unity{
     display: flex;
     flex-direction: column;
@@ -198,7 +210,7 @@ nav .logo {
     align-items: center;
     font-size: 1.5rem;
     color: rgba(255, 122, 25, 0.8);
-    padding: 2rem 0 2.5rem;
+    padding: 5rem 0 3rem;
 }
 
 .home-page-unity h3{
@@ -218,6 +230,12 @@ nav .logo {
     height: 4px;
     border-radius: 0.8rem;
     opacity: 0.5;
+}
+
+@media screen and (max-width: 768px){
+    fade{
+        bottom: -160px;
+    }
 }
 
 /*About Section*/
