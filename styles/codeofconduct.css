@@ -185,7 +185,38 @@ nav .logo {
 .container{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px 20px;
+}
+
+.section-text {
+  text-align: center;
+  padding: 4px;
+  letter-spacing: 1.5px;
+}
+
+.section-heading {
+position: relative;
+text-align: center;
+padding-top: 10px;
+font-size: 30px;
+}
+
+.section-heading::after{
+  content: '';
+    position: absolute;
+    bottom: 0rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FF7518;
+    width: 11rem;
+    height: 4px;
+    border-radius: 0.8rem;
+}
+
+@media (max-width: 500px) {
+  .section-text {
+      letter-spacing: 1px;
+  }
 }
 
 ol.gradient-list > li, ol.gradient-list > li::before {
@@ -206,7 +237,7 @@ ol.gradient-list > li {
   min-height: 3rem;
   padding: 1.2rem 1.2rem 1.2rem 3.5rem;
   position: relative;
-  font-size: 1.6rem;
+  font-size: 18px;
 }
 ol.gradient-list > li::before, ol.gradient-list > li::after {
   background: linear-gradient(135deg, rgba(255,186,8,1) 0%, rgba(255,127,21,1) 100%);
@@ -220,35 +251,17 @@ ol.gradient-list > li::before, ol.gradient-list > li::after {
   width: 3rem;
 }
 ol.gradient-list > li::before {
-  align-items: flex-end;
+  align-items: center;
   content: counter(gradient-counter);
   color: #fff;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   padding: 0.125em 0.25em;
   z-index: 1;
 }
 
 ol.gradient-list > li + li {
   margin-top: 2rem;
-}
-
-.section-text {
-    text-align: center;
-    padding: 4px;
-    letter-spacing: 1.5px;
-}
-
-.section-heading {
-  text-align: center;
-  padding-top: 10px;
-}
-
-@media (max-width: 500px) {
-    .section-text {
-        letter-spacing: 1px;
-        padding: 2px;
-    }
 }
 
 .contact{
