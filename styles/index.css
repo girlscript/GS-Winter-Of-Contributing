@@ -234,7 +234,7 @@ fade {
 
 @media screen and (max-width: 768px){
     fade{
-        bottom: -160px;
+        bottom: -150px;
     }
 }
 
