@@ -329,3 +329,11 @@ nav .mainMenu li a.nav-underline-event {
         justify-content: center;
     }
 }
+
+/* Footer-Links */
+
+.link:hover{
+    text-decoration: underline;
+    color: rgb(245, 240, 240);
+    
+}
